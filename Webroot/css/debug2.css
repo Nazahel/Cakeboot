@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+#debug2_widget_nav{
+	position:fixed; top:10px; right:10px;
+}
+
+.debug2_btn{
+	background:rgba(0,0,0,.5);
+	padding:5px 7px;
+	color:rgba(255,255,255,.7); font-size:12px; font-family: 'Source+Sans+Pro', sans-serif;
+	z-index:9999;
+	border-radius:5px;
+	opacity:.5;
+	display: inline-block;
+}
+.debug2_btn:hover{
+	opacity:1;
+}
+
+#debug2{
+	border-top:3px solid #333;
+	color:#333;
+	/*position: fixed; bottom:0; right:0; left:0;*/
+	font-size:14px; font-family: 'Source+Sans+Pro', sans-serif;
+	z-index:999;
+	border-radius:2px 2px 0 0;
+}
+#debug2.active{
+	bottom:0;
+}
+#debug2 ::-webkit-scrollbar{
+	width:7px; height:6px;
+}
+#debug2 ::-webkit-scrollbar-track-piece{
+	background:#aaa;
+	border:0;
+	margin:0;
+}
+#debug2 ::-webkit-scrollbar-thumb{
+	background:#900;
+}
+
+#debug2 hr{
+	background:#aaa;
+	border:0;
+	height: 1px;
+	margin: 10px 0;
+}
+
+#debug2 a{
+	text-decoration: none;
+	color: #882922;
+}
+
+#debug2 h2{
+	background:#900;
+	border-top:2px solid #730D00; border-bottom:2px solid #730D00;
+	padding:5px; margin:0 -10px 5px;
+	color:#eee; font-weight:bold;
+	text-shadow:-1px -1px 0 #730D00;
+}
+
+#debug2 h4{
+	font-weight:bold;
+	display:inline-block;
+}
+
+#debug2 nav{
+	background:#111;
+	border-top:1px solid #1a1a1a;
+	height: 35px; line-height: 35px; width: auto;
+	/*position: absolute; top:-36px; right:0;*/
+}
+
+#debug2 nav a{
+	border-right: 1px solid #111;
+	padding: 0 10px;
+	color: #aaa;
+	text-shadow: 1px 1px 0 #030303;
+	display: block; float: left;
+	background: -webkit-linear-gradient(#111,#0a0a0a);
+}
+
+#debug2 nav a:hover,#debug2 nav a.active{
+	background: -webkit-linear-gradient(#2a2a2a,#222);
+	color:#fff;
+}
+
+#debug2_content{
+	background:#ddd;
+	border: 1px solid #1a1a1a;
+	min-height: 500px;
+	padding: 0 10px;
+	overflow-x: auto;
+}
+
+#debug2 section{
+	/*display: none;*/
+}
+
+#debug2 section span{
+	background:#E3AE00;
+	padding:5px; margin:-5px -10px 5px;
+	color:#333; font-weight:bold;
+	display:none;
+}
+
+#debug2 section .cake-debug-output{
+	letter-spacing:.9px;
+}
+
+.jqHandle {
+   background: red;
+   height:15px;
+}
+ 
+.jqDrag {
+  width: 100%;
+  cursor: move;
+}
+ 
+.jqResize {
+   height: 3px;
+   position: absolute; top: 0; right: 0; left: 0;
+   cursor: n-resize;
+}
+ 
+.jqDnR {
+    z-index: 3;
+    position: relative;
+    width: 180px;
+    font-size: 0.77em;
+    color: #618d5e;
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+}

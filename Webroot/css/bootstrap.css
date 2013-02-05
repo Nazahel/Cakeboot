@@ -1,0 +1,44 @@
+/**
+ * 
+ * CakeBootstap - bootstrap.css
+ * Création - 27/08/2012
+ *
+ **/
+
+/* Grid */
+.gr_1, .gr_4, .gr_6, .gr_8, .gr_12 { min-height: 70px; display: block; float: left; margin-right: 2.564102564%; }
+.gr_1.gr_res, .gr_4.gr_res, .gr_6.gr_res, .gr_8.gr_res, .gr_12.gr_res { margin-right: 0; }
+
+.gr_1 { width: 5.982905983%; }
+
+.gr_4 { width: 31.623931624%; }
+
+.gr_6 { width: 48.717948718%; }
+
+.gr_8 { width: 65.81196581200001%; }
+
+.gr_12 { width: 100%; }
+
+.cb { clear: both; }
+
+img { display: block; }
+
+ul.list-hover li:hover { background: #FFF; box-shadow: 0px 0px 3px #C9E8FF; }
+ul.list-inline li { display: block; float: left; }
+ul.list-inline li:last-child { margin-right: 0; }
+ul.list-padding li { padding: 5px 0; }
+ul.list-margin-r li { margin-right: 10px; }
+ul.list-zebra li:nth-child(2n) { background: #f3f3f3; }
+ul.list-hover li:hover { background: #E6FFC2; }
+ul.list-rounded li { background: #E5E5E5; border-radius: 5px; padding: 3px 5px; }
+ul.list-rounded li a { text-decoration: none; }
+ul.list-master li { background: #FCFCFC; border: 1px solid #DDD; border-radius: 3px; margin: 5px; }
+ul.list-master li a { color: #119AFF; }
+ul.list-details li { color: #666; }
+ul.list-details li .microtitle { width: 70px; color: #333; display: inline-block; }
+
+.alignleft { margin-right: 20px; float: left; }
+
+.alignright { margin-left: 20px; float: right; }
+
+.aligncenter { margin: 0 auto; }
