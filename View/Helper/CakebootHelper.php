@@ -74,6 +74,14 @@ class CakebootHelper extends AppHelper{
 
     //STR
     /**
+     * MARKDOWN
+     */
+    function Markdown($string){
+        App::import('Vendor', 'Cakeboot.Markdown', array('file'=>'Markdown/markdown.php'));
+        return Markdown($string);
+    }
+
+    /**
      * Limite le nombre de caractères d'une chaîne
      * @param $chaine = la chaine à limiter
      * @param $max = le nombre maximal de caractères

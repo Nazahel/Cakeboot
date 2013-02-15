@@ -1,1 +1,7 @@
-<h1>Cakeboor for CakePHP v.2013-01-05</h1>
+Cakeboot for CakePHP v.2013-02-15
+=================================
+
+Ajouts
+------
+
+* **Markdown** : Règle helper pour utiliser le [Markdown](http://michelf.ca/projects/php-markdown) - *echo $this->Cakeboot->Markdown('My string');*
